@@ -1,0 +1,39 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data and models
+data/raw/
+data/processed/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
+*.egg-info/
