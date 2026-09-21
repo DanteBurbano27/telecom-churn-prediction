@@ -1,0 +1,5 @@
+-e .
+jupyterlab>=4,<5
+nbconvert>=7,<8
+pytest>=8,<9
+ruff>=0.6,<1
