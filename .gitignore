@@ -1,4 +1,3 @@
-```gitignore
 # Python
 __pycache__/
 *.py[cod]
@@ -10,6 +9,8 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+.pytest-tmp/
+.pytest_cache/
 
 # Environment variables
 .env
@@ -37,3 +38,6 @@ logs/
 dist/
 build/
 *.egg-info/
+
+# Analysis outputs
+outputs/
